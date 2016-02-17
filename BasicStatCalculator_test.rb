@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require './BasicStatCalculator'
 
-class TestBlog < Minitest::Test
+class TestBasicStatCalculator < Minitest::Test
   def setup
     @numbers = [10, 5, 12, 2, 6]
   end
